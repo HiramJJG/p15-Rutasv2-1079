@@ -7,24 +7,21 @@ class Pantalla2_1079 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('pantalla2 Jurado_1079'),
-        backgroundColor: Color(0xff2610ec),
+        title: const Text(' Card p2 Jurado_1079'),
+        backgroundColor: Color(0xff0657c1),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff0525db),
-          width: double.infinity,
-          height: 150,
-          child: Card(
-            color: Color(0xff06cac0),
-            margin: EdgeInsets.all(20),
-            child: Padding(
-              padding: EdgeInsets.all(30),
-              child: Text(
-                'Card Jurado 2',
-                style: TextStyle(fontSize: 30),
-              ),
-            ),
+          color: Color(0xff08ca58),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Card Jurado_1079',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
